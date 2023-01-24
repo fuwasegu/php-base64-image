@@ -1,4 +1,4 @@
-# 📷 fuwasegu/php-image
+# 📷 fuwasegu/php-base64-image
 Library for easy handling of base64-encoded images in PHP
 
 # 📦 Installation
