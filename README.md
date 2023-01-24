@@ -1,4 +1,8 @@
 # 📷 fuwasegu/php-base64-image
+[![Coverage Status](https://coveralls.io/repos/github/lunain84/php-base64-image/badge.svg?branch=master)](https://coveralls.io/github/lunain84/php-base64-image?branch=master)
+![example workflow](https://github.com/lunain84/php-base64-image/actions/workflows/ci.yml/badge.svg)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+
 Library for easy handling of base64-encoded images in PHP
 
 # 📦 Installation
