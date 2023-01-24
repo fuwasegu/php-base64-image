@@ -1,8 +1,10 @@
 <?php
 
-namespace Fuwasegu\PhpImage\Tests\Exceptions;
+declare(strict_types=1);
 
-use Fuwasegu\PhpImage\Contract\Exceptions\InvalidMimetypeException;
+namespace Fuwasegu\PhpBase64Image\Tests\Exceptions;
+
+use Fuwasegu\PhpBase64Image\Contract\Exceptions\InvalidMimetypeException;
 use PHPUnit\Framework\TestCase;
 
 class InvalidMimetypeExceptionTest extends TestCase

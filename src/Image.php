@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Fuwasegu\PhpImage;
+namespace Fuwasegu\PhpBase64Image;
 
 use finfo;
-use Fuwasegu\PhpImage\Contract\Exceptions\InvalidMimetypeException;
-use Fuwasegu\PhpImage\Contract\Image as ImageContract;
+use Fuwasegu\PhpBase64Image\Contract\Exceptions\InvalidMimetypeException;
+use Fuwasegu\PhpBase64Image\Contract\Image as ImageContract;
 use RuntimeException;
 use ValueError;
 

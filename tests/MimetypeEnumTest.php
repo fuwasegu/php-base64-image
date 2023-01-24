@@ -1,9 +1,11 @@
 <?php
 
-namespace Fuwasegu\PhpImage\Tests;
+declare(strict_types=1);
 
-use Fuwasegu\PhpImage\Extension;
-use Fuwasegu\PhpImage\Mimetype;
+namespace Fuwasegu\PhpBase64Image\Tests;
+
+use Fuwasegu\PhpBase64Image\Extension;
+use Fuwasegu\PhpBase64Image\Mimetype;
 use PHPUnit\Framework\TestCase;
 
 class MimetypeEnumTest extends TestCase

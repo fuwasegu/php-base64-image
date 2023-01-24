@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Fuwasegu\PhpImage;
+namespace Fuwasegu\PhpBase64Image;
 
 enum Mimetype: string
 {

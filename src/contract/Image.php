@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Fuwasegu\PhpImage\Contract;
+namespace Fuwasegu\PhpBase64Image\Contract;
 
-use Fuwasegu\PhpImage\Extension;
-use Fuwasegu\PhpImage\Mimetype;
+use Fuwasegu\PhpBase64Image\Extension;
+use Fuwasegu\PhpBase64Image\Mimetype;
 
 interface Image
 {

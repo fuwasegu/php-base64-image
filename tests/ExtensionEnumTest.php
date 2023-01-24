@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Fuwasegu\PhpImage\Tests;
+namespace Fuwasegu\PhpBase64Image\Tests;
 
-use Fuwasegu\PhpImage\Extension;
-use Fuwasegu\PhpImage\Mimetype;
+use Fuwasegu\PhpBase64Image\Extension;
+use Fuwasegu\PhpBase64Image\Mimetype;
 use PHPUnit\Framework\TestCase;
 
 class ExtensionEnumTest extends TestCase

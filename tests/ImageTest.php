@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Fuwasegu\PhpImage\Tests;
+namespace Fuwasegu\PhpBase64Image\Tests;
 
-use Fuwasegu\PhpImage\Extension;
-use Fuwasegu\PhpImage\Image;
-use Fuwasegu\PhpImage\Mimetype;
+use Fuwasegu\PhpBase64Image\Extension;
+use Fuwasegu\PhpBase64Image\Image;
+use Fuwasegu\PhpBase64Image\Mimetype;
 use PHPUnit\Framework\TestCase;
 use RuntimeException;
 
@@ -14,7 +14,10 @@ class ImageTest extends TestCase
 {
     public function testCreateFromBase64(): void
     {
-        $encoded = base64_encode($file = file_get_contents(__DIR__ . '/files/pikachu.png'));
+        $file = file_get_contents(__DIR__ . '/files/pikachu.png');
+        assert(is_string($file));
+
+        $encoded = base64_encode($file);
         $base64 = "data:image/png;base64,{$encoded}";
         $image = Image::fromBase64($base64);
 

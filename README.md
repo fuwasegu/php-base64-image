@@ -1,9 +1,9 @@
 # 📷 fuwasegu/php-image
-The image file manager for PHP
+Library for easy handling of base64-encoded images in PHP
 
 # 📦 Installation
 ```shell
-composer require fuwasegu/php-image
+composer require fuwasegu/php-base64-image
 ```
 
 # ✅ Usage
@@ -16,7 +16,7 @@ declare(strict_types=1);
 
 namespace App\Http\Controllers;
 
-use Fuwasegu\PhpImage\Image;
+use Fuwasegu\PhpBase64Image\Image;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;

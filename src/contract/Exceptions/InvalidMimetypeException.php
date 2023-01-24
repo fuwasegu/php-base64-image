@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Fuwasegu\PhpImage\Contract\Exceptions;
+namespace Fuwasegu\PhpBase64Image\Contract\Exceptions;
 
 use Exception;
-use Fuwasegu\PhpImage\Mimetype;
+use Fuwasegu\PhpBase64Image\Mimetype;
 use Throwable;
 
 class InvalidMimetypeException extends Exception

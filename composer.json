@@ -1,6 +1,6 @@
 {
-  "name": "fuwasegu/php-image",
-  "description": "The image file manager for PHP",
+  "name": "fuwasegu/php-base64-image",
+  "description": "Library for easy handling of base64-encoded images in PHP",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -19,13 +19,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Fuwasegu\\PhpImage\\": "src/",
-      "Fuwasegu\\PhpImage\\Contract\\": "src/contract/"
+      "Fuwasegu\\PhpBase64Image\\": "src/",
+      "Fuwasegu\\PhpBase64Image\\Contract\\": "src/contract/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Fuwasegu\\PhpImage\\Tests\\": "tests/"
+      "Fuwasegu\\PhpBase64Image\\Tests\\": "tests/"
     }
   },
   "scripts": {
