@@ -1,0 +1,42 @@
+{
+  "name": "fuwasegu/php-image",
+  "description": "The image file manager for PHP",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "fuwasegu",
+      "email": "contact@fuwasegu.com"
+    }
+  ],
+  "keywords": ["php", "image", "base64"],
+  "require": {
+    "php": "^8.1",
+    "phpunit/phpunit": "^9.5",
+    "phpstan/phpstan": "^1.9",
+    "friendsofphp/php-cs-fixer": "^3.13",
+    "ext-fileinfo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fuwasegu\\PhpImage\\": "src/",
+      "Fuwasegu\\PhpImage\\Contract\\": "src/contract/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Fuwasegu\\PhpImage\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit tests/ --testdox",
+    "stan": "vendor/bin/phpstan analyse --level=9 --memory-limit=2G src tests",
+    "lint": "vendor/bin/php-cs-fixer fix --dry-run",
+    "lint:fix": "vendor/bin/php-cs-fixer fix"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "yumemi-inc/php-cs-fixer-config": "^8.1"
+  }
+}
