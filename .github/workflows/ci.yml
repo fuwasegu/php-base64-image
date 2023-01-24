@@ -24,5 +24,7 @@ jobs:
         run: composer lint
       - name: Static Analysis
         run: composer stan
-      - run: mkdir -p build/logs
-      - run: vendor/bin/phpunit --coverage-clover build/logs/clover.xml
+      - name: Make directory
+        run: mkdir -p build/logs
+      - name: Test
+        run: vendor/bin/phpunit tests/ --coverage-clover build/logs/clover.xml
