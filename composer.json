@@ -12,9 +12,6 @@
   "keywords": ["php", "image", "base64"],
   "require": {
     "php": "^8.1",
-    "phpunit/phpunit": "^9.5",
-    "phpstan/phpstan": "^1.9",
-    "friendsofphp/php-cs-fixer": "^3.13",
     "ext-fileinfo": "*"
   },
   "autoload": {
@@ -37,6 +34,8 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require-dev": {
-    "yumemi-inc/php-cs-fixer-config": "^8.1"
+    "yumemi-inc/php-cs-fixer-config": "^8.1",
+    "phpunit/phpunit": "^9.5",
+    "phpstan/phpstan": "^1.9"
   }
 }
