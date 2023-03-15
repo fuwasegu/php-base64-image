@@ -12,6 +12,10 @@ composer require fuwasegu/php-base64-image
 
 # ✅ Usage
 Assuming you are using this package in a Laravel project, you can use it as follows:
+> 💡Tips
+> 
+> Of course, this library does not depend on Laravel, so it can be used for pure PHP projects as well.
+
 
 ```php
 <?php
